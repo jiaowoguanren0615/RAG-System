@@ -1,0 +1,9 @@
+[
+  {
+    "id": "qa-001",
+    "question": "该 SOP 中取样频率要求是什么？",
+    "expected_doc_type": "sop",
+    "expected_answer_contains": ["取样"],
+    "must_cite": true
+  }
+]

@@ -1,0 +1,18 @@
+sop:
+  strategy: section
+  chunk_size: 800
+  overlap: 100
+  preserve_headers: true
+
+label:
+  strategy: fixed_sections
+  sections:
+    - 适应症
+    - 用法用量
+    - 禁忌
+    - 不良反应
+
+regulation:
+  strategy: article
+  chunk_size: 600
+  overlap: 50
